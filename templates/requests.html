@@ -1,0 +1,39 @@
+<!doctype html>
+
+
+<head>
+    <title>Requests!</title>
+    <meta charset=utf-8>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
+</head>
+    <body>
+        <script type="text/javascript">    
+            function whichButton(buttonElement){
+              var buttonClickedId = buttonElement.id;
+              if( buttonClickedId === '1' ){
+                 // do btn1 stuff
+              }
+              else if( buttonClickedId === '2' ){
+                var name = prompt ('Enter the custom value here :');
+              }
+              // ...
+              else{
+                 // don't know which button was clicked
+              }
+            
+            }
+        </script>
+        <br>
+        <br>
+        <br>
+        <br>
+        <button style="background-color: rgb(216, 8, 8);width: 500px;"
+        <h1>Requests Menu :</h1>
+        <br>
+        <form action="/esportssl/", id="esportssl">
+            <input type="submit" value="Bypass Esport SSL Access [BETA]" />
+        </form>
+        <form action="/", id="cheat1">
+            <input type="submit" value="Return" />
+        </form>
+    </body>

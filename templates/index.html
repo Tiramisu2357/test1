@@ -1,0 +1,45 @@
+<!doctype html>
+
+
+<head>
+    <title>Exploit!</title>
+    <meta charset=utf-8>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
+</head>
+    <body>
+        <script type="text/javascript">    
+            function whichButton(buttonElement){
+              var buttonClickedId = buttonElement.id;
+              if( buttonClickedId === '1' ){
+                 // do btn1 stuff
+              }
+              else if( buttonClickedId === '2' ){
+                var name = prompt ('Enter the custom value here :');
+              }
+              // ...
+              else{
+                 // don't know which button was clicked
+              }
+            
+            }
+        </script>
+        <br>
+        <br>
+        <br>
+        <br>
+        <button style="background-color: rgb(216, 8, 8);width: 500px;"
+        <h1>You Are Connected : 127.0.0.1:5000</h1>
+        <br>
+        <form action="/cheat/", id="cheat">
+            <input type="submit" value="Cheats Menu" />
+        </form>
+        <form action="/mod/", id="mod">
+            <input type="submit" value="Mods Menu" />
+        </form>
+        <form action="/values/", id="hexa">
+            <input type="submit" value="Values Menu" />
+        </form>
+        <form action="/requests/", id="requests">
+            <input type="submit" value="Requests Menu" />
+        </form>
+    </body>
